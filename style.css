@@ -1,0 +1,674 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+html{
+  padding: 0;
+  margin: 0;
+}
+
+
+h2{
+font-family: 'Open Sans', sans-serif;
+font-variant: bold;
+}
+
+h3{
+font-family: 'Open Sans', sans-serif;
+font-variant: 400;
+}
+
+p{
+  font-family: 'Open Sans', sans-serif;
+  font-variant: 300;
+}
+
+li{
+  font-family: 'Open Sans', sans-serif;
+  font-variant: 300;
+}
+
+
+
+
+
+/* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+@media (min-width:320px)  {
+ #introduction {
+      height: 700px;
+      background-size: 100% 620px;
+    }
+
+    .intro-main{
+    font-size: 11px;
+    }
+
+ .problem-main p{
+  padding-right: 0;
+}
+.history-main li{
+  padding-right:0;
+  font-size: 9px;
+  width: 100%;
+}
+
+  .history-images{
+  display: none;
+}
+
+  #problem{
+  height: 800px;
+}
+
+ #usergroups li{
+    display: block;
+  }
+
+
+#history{
+  height: 1250px;
+}
+
+.user-groupscontent{
+  display: none;
+}
+
+#slideshow { 
+    width: 100%; 
+    height: 100px; 
+}
+
+#slideshow > div { 
+    position: absolute; 
+    top: 2800px; 
+    left: 10px; 
+    right: 10px; 
+    bottom: 10px; 
+    margin: 0;
+    padding: 0;
+}
+
+
+  }
+/* smartphones, Android phones, landscape iPhone */
+@media (min-width:480px)  {
+   #introduction {
+      height: 650px;
+      background-size: 100% 620px;
+    }
+
+    .intro-main{
+    font-size: 11px;
+    }
+
+    
+.history-main li{
+  padding-right:50px;
+  font-size: 12px;
+  width: 80%;
+}
+
+  .history-images{
+  display: none;
+}
+
+    #problem{
+  height: 800px;
+  }
+
+   #usergroups li{
+    display: block;
+  }
+
+
+
+#history{
+  height: 1250px;
+}
+
+.user-groupscontent{
+  display: none;
+}
+#slideshow { 
+    width: 100%; 
+    height: 120px; 
+}
+
+#slideshow > div { 
+    position: absolute; 
+    top: 2800px; 
+    left: 10px; 
+    right: 10px; 
+    bottom: 10px; 
+    margin: 0;
+    padding: 0;
+}
+
+
+  }
+/* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+@media (min-width:600px)  {
+   #introduction {
+      height: 625px;
+      background-size: 100% 620px;
+    }
+
+    .intro-main{
+    font-size: 12px;
+    }
+
+      #problem{
+  height: 800px;
+  }
+
+  .history-images{
+  display: none;
+}
+
+  .history-main li{
+  padding-right:150px;
+  font-size: 11px;
+  width: 60%;
+}
+
+ #usergroups li{
+    display: block;
+  }
+
+
+#history{
+  height: 1200px;
+}
+
+.user-groupscontent{
+  display: none;
+}
+
+#slideshow { 
+    width: 100%; 
+    height: 140px; 
+}
+
+#slideshow > div { 
+    position: absolute; 
+    top: 2800px; 
+    left: 10px; 
+    right: 10px; 
+    bottom: 10px; 
+    margin: 0;
+    padding: 0;
+}
+
+
+  }
+/* tablet, landscape iPad, lo-res laptops ands desktops */
+@media (min-width:801px)  {
+  #introduction {
+      height: 600px;
+      background-size: 100% 610px;
+    }
+
+    .intro-main{
+    font-size: 12px;
+    }
+
+        #problem{
+  height: 800px;
+  }
+
+  .history-images{
+  display: none;
+}
+
+    .history-main li{
+  padding-right:250px;
+  font-size: 12px;
+}
+
+ #usergroups li{
+    display: block;
+  }
+
+ 
+#history{
+  height: 1150px;
+}
+
+
+.user-groupscontent{
+  display: block;
+}
+
+#slideshow { 
+    width: 100%; 
+    height: 160px; 
+}
+
+#slideshow > div { 
+    position: absolute; 
+    top: 2800px; 
+    left: 10px; 
+    right: 10px; 
+    bottom: 10px; 
+    margin: 0;
+    padding: 0;
+}
+
+
+  }
+/* big landscape tablets, laptops, and desktops */
+@media (min-width:1025px) {
+   #introduction {
+      height: 550px;
+      background-size: 100% 600px;
+    }
+
+    .intro-main{
+    font-size: 13px;
+    }
+   
+
+    #problem{
+  height: 700px;
+  }
+
+  .history-images{
+  display: none;
+}
+
+  .history-main li{
+  padding-right:350px;
+  float: none;
+  font-size: 12px;
+}
+
+ #usergroups li{
+    display: block;
+  }
+
+
+#history{
+  height: 1150px;
+}
+
+.user-groupscontent{
+  display: block;
+}
+
+#slideshow img{
+  width: 80%;
+  height: 600px;
+}
+
+#slideshow { 
+    width: 100%; 
+    height: 180px; 
+}
+
+#slideshow > div { 
+    position: absolute; 
+    top: 2800px; 
+    left: 10px; 
+    right: 10px; 
+    bottom: 10px; 
+    margin: 0;
+    padding: 0;
+}
+
+ 
+  }
+/* hi-res laptops and desktops */
+@media (min-width:1281px) {
+
+   #introduction {
+      height: 500px;
+    }
+
+   .intro-main{
+    font-size: 15px;
+    }
+    .history-main li{
+  padding-right:400px;
+  float: left;
+  font-size: 15px;
+}
+
+.history-images{
+  display: block;
+}
+
+
+   #problem{
+  height: 500px;
+  }
+
+  #usergroups li{
+    display: block;
+  }
+
+#history{
+  height: 1100px;
+}
+
+.user-groupscontent{
+  display: block;
+}
+
+#slideshow { 
+    width: 100%; 
+    height: 200px; 
+}
+
+
+#slideshow > div { 
+    position: absolute; 
+    top: 2700px; 
+    left: 10px; 
+    right: 10px; 
+    bottom: 10px; 
+    margin: 0;
+    padding: 0;
+}
+
+
+}
+
+
+
+#navbar{
+  width: 100%;
+  height: 50px;
+  background-color: #A7A5A7;
+  opacity: 0.1;
+}
+
+#navbar-shader{
+  width: 100%;
+  height: 10px;
+  background-color: #3F3D3F;
+  opacity: 0.1;
+}
+
+#icon{
+  text-align: center;
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  top: 1px;
+  left: 48%;
+}
+
+#icon img{
+  width: 60px;
+  height:60px;
+
+}
+
+#introduction{
+  width: 100%;
+  height: 500px;
+  background-image: url("banner.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 600px;
+
+}
+
+.intro-heading{
+  text-align: center;
+  padding: 100px;
+}
+
+.intro-heading h2{
+  padding-bottom: 40px;
+  color: #fff;
+}
+
+.intro-heading h3{
+  color: #fff;
+}
+
+.intro-main{
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: center;
+  color: #fff;
+}
+
+#problem{
+  padding-bottom: 50px;
+}
+
+.problem-heading{
+  text-align: center;
+}
+
+.problem-heading h2{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.problem-heading h3{
+  padding-bottom: 100px;
+}
+
+.problem-main p{
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+
+
+#history{
+  background-color: #E0DED8;
+  width: 100%;
+  height: 1100px;
+}
+
+.history-main ul{
+ padding-left: 50px;
+ padding-right: 50px;
+ padding-top: 80px;
+ list-style-type: none;
+}
+
+.history-main li{
+  padding-right:400px;
+  float: left;
+  padding-bottom: 50px;
+}
+
+.history-images{
+  position: absolute;
+  top: 1200px;
+  left:75%;
+}
+
+.history-images ul{
+  list-style-type: none;
+}
+
+.history-images li{
+  padding-bottom: 30px;
+}
+
+.history-images img{
+  height: 250px;
+}
+
+#usergroups{
+  width: 100%;
+  height: 315px;
+}
+
+#usergroups ul{
+ text-align: center;
+}
+
+#usergroups li{
+ display: inline-block;
+ height: 250px;
+ padding-left: 20px;
+ padding-right: 20px;
+}
+
+.usergroups-head{
+  text-align: center;
+  padding-top: 40px;
+}
+
+.usergroups-head h2{
+  padding-bottom: 30px;
+}
+
+.usergroups-head h3{
+  color: #A7A5A7;
+}
+
+
+
+#school-con{
+  position: absolute;
+  background-color: #fff;
+  left: 18%;
+  top: 2200px;
+  text-align: center;
+  width: 30%;
+  height: 200px;
+  display:none; 
+}
+
+
+#int-content{
+ position: absolute;
+  text-align: center;
+  background-color: #fff;
+  width: 50%;
+  height: 200px;
+  left: 24%;
+  top: 2250px;
+  display: none;
+}
+
+
+#gen-content{
+ position: absolute;
+  text-align: center;
+  background-color: #fff;
+  left: 60%;
+  top: 2250px;
+  width: 30%;
+  height: 200px;
+  display: none;
+}
+
+#Prop{
+  height: 500px;
+  width: 100%;
+  text-align: center;
+  background-color: #E0DED8;
+  padding-top: 50px;
+}
+
+#Prop h2{
+  padding-top: 40px;
+  padding-bottom:30px;
+}
+
+#Prop p{
+  text-align: none;
+  padding-top: 20px;
+}
+
+
+#slideshow { 
+    width: 100%; 
+    height: 200px; 
+    position: relative;
+}
+
+
+
+#slideshow img{
+  width: 100%;
+  height: 850px;
+}
+
+#slideshow > div { 
+    position: absolute; 
+    top: 10px; 
+    left: 10px; 
+    right: 10px; 
+    bottom: 10px; 
+    margin: 0;
+    padding: 0;
+}
+
+
+#slideshow2 { 
+    width: 100%; 
+    height: 200px; 
+    position: relative;
+    z-index: -1;
+}
+
+
+
+#slideshow2 img{
+  width: 100%;
+  height: 850px;
+}
+
+#slideshow2 > div { 
+    position: absolute; 
+    top: 800px; 
+    left: 10px; 
+    right: 10px; 
+    bottom: 10px; 
+    margin: 0;
+    padding: 0;
+}
+
+#prop-cont{
+  position: relative;
+}
+
+#proposal-content{
+  position: absolute;
+  width: 25%;
+  left: 900px;
+}
+
+#product-backlog{
+  position: relative;
+  width: 100%;
+  height: 200px;
+  padding-top: 
+  background-color: red;
+}
+
+#map-cont{
+  position: relative;
+}
+
+#map-content{
+  position: absolute;
+  width: 25%;
+  top: 1000px;
+  left: 200px;
+}
+
+#references{
+  position: absolute;
+  padding-top: 20px;
+  top: 5000px;
+  width: 100%;
+  height: 500px;
+  background-color: #E0DED8;
+}
+
+#references p{
+  padding-top: 5px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
